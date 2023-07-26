@@ -70,6 +70,24 @@ mathop(num1: 5, num2: 5, cor: "*")
     
 //_____________________________4______________________________
 
+let num : [Int] = [1,2,3,4,5,6]
+func myArray(array : [Int]){
+    for number in array {
+        number
+    }
+}
+
+let plasnum = num.map { $0 + 1
+}
+print("plasnum: \(plasnum)")
+
+let dubelnum = num.filter { $0 % 2 == 0
+}
+print(" dubelnum: \(dubelnum)")
+
+
+
+
 
 
 
